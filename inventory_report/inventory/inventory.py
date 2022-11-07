@@ -14,5 +14,5 @@ class Inventory:
 
             if relatory_type == 'simples':
                 return SimpleReport.generate(arquivo)
-            elif relatory_type == 'complete':
+            elif relatory_type == 'completo':
                 return CompleteReport.generate(arquivo)
