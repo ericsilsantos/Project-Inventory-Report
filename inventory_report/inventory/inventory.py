@@ -12,7 +12,7 @@ class Inventory:
             if path.endswith(".csv"):
                 arquivo = list(
                     csv.DictReader(file, delimiter=",", quotechar='"')
-                    )
+                )
             elif path.endswith(".json"):
                 arquivo = json.load(file)
             else:
