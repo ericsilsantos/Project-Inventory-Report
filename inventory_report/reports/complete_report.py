@@ -13,6 +13,6 @@ class CompleteReport(SimpleReport):
 
         return (
             f"{result}\n"
-            f"Produtos estocados por empresas:\n"
+            f"Produtos estocados por empresa:\n"
             f"{text_products}"
         )
